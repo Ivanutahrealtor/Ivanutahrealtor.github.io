@@ -41,8 +41,8 @@
     .lead-section .eyebrow{color:var(--coffee)}
     .lead-copy{color:#655d56}
     .calc-tabs{grid-template-columns:repeat(2,1fr)}
-    @media(max-width:960px){.main-nav{z-index:60;background:#fbfaf8!important;box-shadow:0 26px 60px rgba(33,29,30,.18);border-top:1px solid var(--line);padding:22px 28px 34px;gap:0;overflow-y:auto}.main-nav a{width:100%;padding:17px 2px;color:var(--ink)!important;border-bottom:1px solid var(--line)}.main-nav .nav-cta{margin-top:16px;padding:15px 20px;background:var(--ink);color:#fff!important;border-bottom:0}}
-    @media(max-width:640px){.hero-photo{object-position:center top}.hero-content{padding:27px 23px;background:rgba(251,250,248,.94)}}
+    @media(max-width:960px){.main-nav{z-index:60;height:calc(100dvh - 80px);min-height:calc(100vh - 80px);background:#fbfaf8!important;box-shadow:0 26px 60px rgba(33,29,30,.18);border-top:1px solid var(--line);padding:14px 28px 24px;gap:0;justify-content:space-evenly;overflow:hidden}.main-nav a{width:100%;padding:clamp(10px,2vh,17px) 2px;color:var(--ink)!important;border-bottom:1px solid var(--line)}.main-nav .nav-cta{margin-top:8px;padding:15px 20px;background:var(--ink);color:#fff!important;border-bottom:0}}
+    @media(max-width:640px){.main-nav{height:calc(100dvh - 70px);min-height:calc(100vh - 70px);padding:8px 22px 18px}.hero-photo{object-position:center top}.hero-content{padding:27px 23px;background:rgba(251,250,248,.94)}}
 </style>
 <style>:root{--ivan-photo:url("utah-landscape.webp")}</style></head>
 <body>
